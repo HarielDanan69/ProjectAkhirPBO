@@ -46,24 +46,32 @@ public class registerAdminView extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel1.setText("ADMIN REGISTER PAGE");
 
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel2.setText("Nama Lengkap:");
 
+        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel3.setText("NIP:");
 
+        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel7.setText("Password:");
 
+        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel8.setText("Confirm Password:");
 
+        tfNamaLengkapRegister.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         tfNamaLengkapRegister.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tfNamaLengkapRegisterActionPerformed(evt);
             }
         });
 
-        jPasswordField1.setText("jPasswordField1");
+        tfNIPRegister.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
 
-        jPasswordField2.setText("jPasswordField2");
+        jPasswordField1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
 
+        jPasswordField2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+
+        btnSubmitAdminRegister.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         btnSubmitAdminRegister.setText("REGISTER");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -81,7 +89,7 @@ public class registerAdminView extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel7)
-                        .addContainerGap(217, Short.MAX_VALUE))
+                        .addContainerGap(213, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jPasswordField1, javax.swing.GroupLayout.Alignment.LEADING)
@@ -119,9 +127,9 @@ public class registerAdminView extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(tfNIPRegister, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPasswordField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 29, Short.MAX_VALUE)
+                .addGap(35, 35, 35)
                 .addComponent(btnSubmitAdminRegister)
-                .addGap(113, 113, 113))
+                .addContainerGap(103, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
